@@ -1,0 +1,869 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Alimentos Selectos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--     <link rel="shortcut icon" type="image/png" href="../assets/images/icon/favicon.ico"> -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/themify-icons.css">
+    <link rel="stylesheet" href="../assets/css/metisMenu.css">
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/css/slicknav.min.css">
+    <!-- amcharts css -->
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <!-- Start datatable css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.jqueryui.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="../assets/css/typography.css">
+    <link rel="stylesheet" href="../assets/css/default-css.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <!-- modernizr css -->
+    <script src="../assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- preloader area start -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- preloader area end -->
+    <!-- page container area start -->
+    <div class="page-container">
+        <!-- sidebar menu area start -->
+        <div class="sidebar-menu">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <a th:href="@{/private/principal}"><img src="http://comprayventaperu.pe/alimentoselectos.pe/alimentosftp/logotipo-alimentos-selectos.png" alt="logo"></a>
+                </div>
+            </div>
+            <div class="main-menu">
+                <div class="menu-inner">
+                    <nav>
+                        <ul class="metismenu" id="menu">
+<!--                             <li> -->
+<!--                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-dashboard"></i><span>dashboard</span></a> -->
+<!--                                 <ul class="collapse"> -->
+<!--                                     <li><a href="index.html">ICO dashboard</a></li> -->
+<!--                                     <li><a href="index2.html">Ecommerce dashboard</a></li> -->
+<!--                                     <li><a href="index3.html">SEO dashboard</a></li> -->
+<!--                                 </ul> -->
+<!--                             </li> -->
+<!--                             <li> -->
+<!--                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layout-sidebar-left"></i><span>Sidebar -->
+<!--                                         Types -->
+<!--                                     </span></a> -->
+<!--                                 <ul class="collapse"> -->
+<!--                                     <li><a href="index.html">Left Sidebar</a></li> -->
+<!--                                     <li><a href="index3-horizontalmenu.html">Horizontal Sidebar</a></li> -->
+<!--                                 </ul> -->
+<!--                             </li> -->
+<!--                             <li> -->
+<!--                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-pie-chart"></i><span>Charts</span></a> -->
+<!--                                 <ul class="collapse"> -->
+<!--                                     <li><a href="barchart.html">bar chart</a></li> -->
+<!--                                     <li><a href="linechart.html">line Chart</a></li> -->
+<!--                                     <li><a href="piechart.html">pie chart</a></li> -->
+<!--                                 </ul> -->
+<!--                             </li> -->
+<!--                             <li> -->
+<!--                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-palette"></i><span>UI Features</span></a> -->
+<!--                                 <ul class="collapse"> -->
+<!--                                     <li><a href="accordion.html">Accordion</a></li> -->
+<!--                                     <li><a href="alert.html">Alert</a></li> -->
+<!--                                     <li><a href="badge.html">Badge</a></li> -->
+<!--                                     <li><a href="button.html">Button</a></li> -->
+<!--                                     <li><a href="button-group.html">Button Group</a></li> -->
+<!--                                     <li><a href="cards.html">Cards</a></li> -->
+<!--                                     <li><a href="dropdown.html">Dropdown</a></li> -->
+<!--                                     <li><a href="list-group.html">List Group</a></li> -->
+<!--                                     <li><a href="media-object.html">Media Object</a></li> -->
+<!--                                     <li><a href="modal.html">Modal</a></li> -->
+<!--                                     <li><a href="pagination.html">Pagination</a></li> -->
+<!--                                     <li><a href="popovers.html">Popover</a></li> -->
+<!--                                     <li><a href="progressbar.html">Progressbar</a></li> -->
+<!--                                     <li><a href="tab.html">Tab</a></li> -->
+<!--                                     <li><a href="typography.html">Typography</a></li> -->
+<!--                                     <li><a href="form.html">Form</a></li> -->
+<!--                                     <li><a href="grid.html">grid system</a></li> -->
+<!--                                 </ul> -->
+<!--                             </li> -->
+<!--                             <li> -->
+<!--                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-slice"></i><span>icons</span></a> -->
+<!--                                 <ul class="collapse"> -->
+<!--                                     <li><a href="fontawesome.html">fontawesome icons</a></li> -->
+<!--                                     <li><a href="themify.html">themify icons</a></li> -->
+<!--                                 </ul> -->
+<!--                             </li> -->
+<!--                             <li class="active"> -->
+<!--                                 <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-table"></i> -->
+<!--                                     <span>Tables</span></a> -->
+<!--                                 <ul class="collapse"> -->
+<!--                                     <li><a href="table-basic.html">basic table</a></li> -->
+<!--                                     <li><a href="table-layout.html">table layout</a></li> -->
+<!--                                     <li class="active"><a href="datatable.html">datatable</a></li> -->
+<!--                                 </ul> -->
+<!--                             </li> -->
+                            <li><a href="http://archy.j.layershift.co.uk/alimentos/" target="_blank"><i class="ti-dashboard"></i> <span>WEB Alimentos</span></a></li>
+                            <li><a th:href="@{/private/principal}"><i class="fa fa-table"></i> <span>Productos</span></a></li>
+<!--                             <li> -->
+<!--                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layers-alt"></i> <span>Pages</span></a> -->
+<!--                                 <ul class="collapse"> -->
+<!--                                     <li><a href="login.html">Login</a></li> -->
+<!--                                     <li><a href="login2.html">Login 2</a></li> -->
+<!--                                     <li><a href="login3.html">Login 3</a></li> -->
+<!--                                     <li><a href="register.html">Register</a></li> -->
+<!--                                     <li><a href="register2.html">Register 2</a></li> -->
+<!--                                     <li><a href="register3.html">Register 3</a></li> -->
+<!--                                     <li><a href="register4.html">Register 4</a></li> -->
+<!--                                     <li><a href="screenlock.html">Lock Screen</a></li> -->
+<!--                                     <li><a href="screenlock2.html">Lock Screen 2</a></li> -->
+<!--                                     <li><a href="reset-pass.html">reset password</a></li> -->
+<!--                                     <li><a href="pricing.html">Pricing</a></li> -->
+<!--                                 </ul> -->
+<!--                             </li> -->
+<!--                             <li> -->
+<!--                                 <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-exclamation-triangle"></i> -->
+<!--                                     <span>Error</span></a> -->
+<!--                                 <ul class="collapse"> -->
+<!--                                     <li><a href="404.html">Error 404</a></li> -->
+<!--                                     <li><a href="403.html">Error 403</a></li> -->
+<!--                                     <li><a href="500.html">Error 500</a></li> -->
+<!--                                 </ul> -->
+<!--                             </li> -->
+<!--                             <li> -->
+<!--                                 <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-align-left"></i> <span>Multi -->
+<!--                                         level menu</span></a> -->
+<!--                                 <ul class="collapse"> -->
+<!--                                     <li><a href="#">Item level (1)</a></li> -->
+<!--                                     <li><a href="#">Item level (1)</a></li> -->
+<!--                                     <li><a href="#" aria-expanded="true">Item level (1)</a> -->
+<!--                                         <ul class="collapse"> -->
+<!--                                             <li><a href="#">Item level (2)</a></li> -->
+<!--                                             <li><a href="#">Item level (2)</a></li> -->
+<!--                                             <li><a href="#">Item level (2)</a></li> -->
+<!--                                         </ul> -->
+<!--                                     </li> -->
+<!--                                     <li><a href="#">Item level (1)</a></li> -->
+<!--                                 </ul> -->
+<!--                             </li> -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- sidebar menu area end -->
+        <!-- main content area start -->
+        <div class="main-content">
+            <!-- header area start -->
+            <div class="header-area">
+                <div class="row align-items-center">
+                    <!-- nav and search button -->
+                    <div class="col-md-6 col-sm-8 clearfix">
+                        <div class="nav-btn pull-left">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+<!--                         <div class="search-box pull-left"> -->
+<!--                             <form action="#"> -->
+<!--                                 <input type="text" name="search" placeholder="Search..." required> -->
+<!--                                 <i class="ti-search"></i> -->
+<!--                             </form> -->
+<!--                         </div> -->
+                    </div>
+                    <!-- profile info & task notification -->
+                    <div class="col-md-6 col-sm-4 clearfix">
+                        <ul class="notification-area pull-right">
+                            <li id="full-view"><i class="ti-fullscreen"></i></li>
+                            <li id="full-view-exit"><i class="ti-zoom-out"></i></li>
+<!--                             <li class="dropdown"> -->
+<!--                                 <i class="ti-bell dropdown-toggle" data-toggle="dropdown"> -->
+<!--                                     <span>2</span> -->
+<!--                                 </i> -->
+<!--                                 <div class="dropdown-menu bell-notify-box notify-box"> -->
+<!--                                     <span class="notify-title">You have 3 new notifications <a href="#">view all</a></span> -->
+<!--                                     <div class="nofity-list"> -->
+<!--                                         <a href="#" class="notify-item"> -->
+<!--                                             <div class="notify-thumb"><i class="ti-key btn-danger"></i></div> -->
+<!--                                             <div class="notify-text"> -->
+<!--                                                 <p>You have Changed Your Password</p> -->
+<!--                                                 <span>Just Now</span> -->
+<!--                                             </div> -->
+<!--                                         </a> -->
+<!--                                         <a href="#" class="notify-item"> -->
+<!--                                             <div class="notify-thumb"><i class="ti-comments-smiley btn-info"></i></div> -->
+<!--                                             <div class="notify-text"> -->
+<!--                                                 <p>New Commetns On Post</p> -->
+<!--                                                 <span>30 Seconds ago</span> -->
+<!--                                             </div> -->
+<!--                                         </a> -->
+<!--                                         <a href="#" class="notify-item"> -->
+<!--                                             <div class="notify-thumb"><i class="ti-key btn-primary"></i></div> -->
+<!--                                             <div class="notify-text"> -->
+<!--                                                 <p>Some special like you</p> -->
+<!--                                                 <span>Just Now</span> -->
+<!--                                             </div> -->
+<!--                                         </a> -->
+<!--                                         <a href="#" class="notify-item"> -->
+<!--                                             <div class="notify-thumb"><i class="ti-comments-smiley btn-info"></i></div> -->
+<!--                                             <div class="notify-text"> -->
+<!--                                                 <p>New Commetns On Post</p> -->
+<!--                                                 <span>30 Seconds ago</span> -->
+<!--                                             </div> -->
+<!--                                         </a> -->
+<!--                                         <a href="#" class="notify-item"> -->
+<!--                                             <div class="notify-thumb"><i class="ti-key btn-primary"></i></div> -->
+<!--                                             <div class="notify-text"> -->
+<!--                                                 <p>Some special like you</p> -->
+<!--                                                 <span>Just Now</span> -->
+<!--                                             </div> -->
+<!--                                         </a> -->
+<!--                                         <a href="#" class="notify-item"> -->
+<!--                                             <div class="notify-thumb"><i class="ti-key btn-danger"></i></div> -->
+<!--                                             <div class="notify-text"> -->
+<!--                                                 <p>You have Changed Your Password</p> -->
+<!--                                                 <span>Just Now</span> -->
+<!--                                             </div> -->
+<!--                                         </a> -->
+<!--                                         <a href="#" class="notify-item"> -->
+<!--                                             <div class="notify-thumb"><i class="ti-key btn-danger"></i></div> -->
+<!--                                             <div class="notify-text"> -->
+<!--                                                 <p>You have Changed Your Password</p> -->
+<!--                                                 <span>Just Now</span> -->
+<!--                                             </div> -->
+<!--                                         </a> -->
+<!--                                     </div> -->
+<!--                                 </div> -->
+<!--                             </li> -->
+<!--                             <li class="dropdown"> -->
+<!--                                 <i class="fa fa-envelope-o dropdown-toggle" data-toggle="dropdown"><span>3</span></i> -->
+<!--                                 <div class="dropdown-menu notify-box nt-enveloper-box"> -->
+<!--                                     <span class="notify-title">You have 3 new notifications <a href="#">view all</a></span> -->
+<!--                                     <div class="nofity-list"> -->
+<!--                                         <a href="#" class="notify-item"> -->
+<!--                                             <div class="notify-thumb"> -->
+<!--                                                 <img src="../assets/images/author/author-img1.jpg" alt="image"> -->
+<!--                                             </div> -->
+<!--                                             <div class="notify-text"> -->
+<!--                                                 <p>Aglae Mayer</p> -->
+<!--                                                 <span class="msg">Hey I am waiting for you...</span> -->
+<!--                                                 <span>3:15 PM</span> -->
+<!--                                             </div> -->
+<!--                                         </a> -->
+<!--                                         <a href="#" class="notify-item"> -->
+<!--                                             <div class="notify-thumb"> -->
+<!--                                                 <img src="../assets/images/author/author-img2.jpg" alt="image"> -->
+<!--                                             </div> -->
+<!--                                             <div class="notify-text"> -->
+<!--                                                 <p>Aglae Mayer</p> -->
+<!--                                                 <span class="msg">When you can connect with me...</span> -->
+<!--                                                 <span>3:15 PM</span> -->
+<!--                                             </div> -->
+<!--                                         </a> -->
+<!--                                         <a href="#" class="notify-item"> -->
+<!--                                             <div class="notify-thumb"> -->
+<!--                                                 <img src="../assets/images/author/author-img3.jpg" alt="image"> -->
+<!--                                             </div> -->
+<!--                                             <div class="notify-text"> -->
+<!--                                                 <p>Aglae Mayer</p> -->
+<!--                                                 <span class="msg">I missed you so much...</span> -->
+<!--                                                 <span>3:15 PM</span> -->
+<!--                                             </div> -->
+<!--                                         </a> -->
+<!--                                         <a href="#" class="notify-item"> -->
+<!--                                             <div class="notify-thumb"> -->
+<!--                                                 <img src="../assets/images/author/author-img4.jpg" alt="image"> -->
+<!--                                             </div> -->
+<!--                                             <div class="notify-text"> -->
+<!--                                                 <p>Aglae Mayer</p> -->
+<!--                                                 <span class="msg">Your product is completely Ready...</span> -->
+<!--                                                 <span>3:15 PM</span> -->
+<!--                                             </div> -->
+<!--                                         </a> -->
+<!--                                         <a href="#" class="notify-item"> -->
+<!--                                             <div class="notify-thumb"> -->
+<!--                                                 <img src="../assets/images/author/author-img2.jpg" alt="image"> -->
+<!--                                             </div> -->
+<!--                                             <div class="notify-text"> -->
+<!--                                                 <p>Aglae Mayer</p> -->
+<!--                                                 <span class="msg">Hey I am waiting for you...</span> -->
+<!--                                                 <span>3:15 PM</span> -->
+<!--                                             </div> -->
+<!--                                         </a> -->
+<!--                                         <a href="#" class="notify-item"> -->
+<!--                                             <div class="notify-thumb"> -->
+<!--                                                 <img src="../assets/images/author/author-img1.jpg" alt="image"> -->
+<!--                                             </div> -->
+<!--                                             <div class="notify-text"> -->
+<!--                                                 <p>Aglae Mayer</p> -->
+<!--                                                 <span class="msg">Hey I am waiting for you...</span> -->
+<!--                                                 <span>3:15 PM</span> -->
+<!--                                             </div> -->
+<!--                                         </a> -->
+<!--                                         <a href="#" class="notify-item"> -->
+<!--                                             <div class="notify-thumb"> -->
+<!--                                                 <img src="../assets/images/author/author-img3.jpg" alt="image"> -->
+<!--                                             </div> -->
+<!--                                             <div class="notify-text"> -->
+<!--                                                 <p>Aglae Mayer</p> -->
+<!--                                                 <span class="msg">Hey I am waiting for you...</span> -->
+<!--                                                 <span>3:15 PM</span> -->
+<!--                                             </div> -->
+<!--                                         </a> -->
+<!--                                     </div> -->
+<!--                                 </div> -->
+<!--                             </li> -->
+<!--                             <li class="settings-btn"> -->
+<!--                                 <i class="ti-settings"></i> -->
+<!--                             </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- header area end -->
+            <!-- page title area start -->
+            <div class="page-title-area">
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <div class="breadcrumbs-area clearfix">
+                            <h4 class="page-title pull-left">Administrador</h4>
+                            <ul class="breadcrumbs pull-left">
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><span>Productos</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 clearfix">
+                        <div class="user-profile pull-right">
+                            <img class="avatar user-thumb" src="../assets/images/author/avatar.png" alt="avatar">
+                            <h4 class="user-name dropdown-toggle" data-toggle="dropdown"><span th:if="${session.usuario!=null}">Bienvenid@: <span th:text="${session.usuario.nombre}"></span></span> <i class="fa fa-angle-down"></i></h4>
+                            <div class="dropdown-menu">
+<!--                                 <a class="dropdown-item" href="#">Message</a> -->
+<!--                                 <a class="dropdown-item" href="#">Settings</a> -->
+                                <a class="dropdown-item" th:href="@{/login/exit}">Salir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- page title area end -->
+            
+
+            <div class="main-content-inner">
+                <div class="row">
+                    <!-- data table start -->
+                    
+                    <div class="col-12 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="header-title">Categoría</div>
+                                <form th:action="@{/private/principal}" th:object="${categoria}" method="POST" class="needs-validation" novalidate="">
+	                              <div class="row">
+	                                  <div class="col-sm-4" style="text-align:right">
+	                                      <label class="col-form-label">Categoría</label>
+	                                  </div>
+	                                  <div class="col-sm-4">
+	                                      <select class="form-control" id="idCategoria" name="idCategoria" th:field="*{idCategoria}">
+	                                          <option th:value="'0'">Todos</option>
+	                                          <option th:each="cat:${categorias}" th:value="${cat.idCategoria}" th:text="${cat.nombre}">
+	                                      </select>
+	                                  </div>
+	                                  <div class="col-sm-4">
+	                                      <button type="submit" class="btn btn-info">Buscar</button>
+	                                  </div>
+	                              </div>
+	                            </form>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Dark table start -->
+                    <div class="col-12 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                            	<div class="row">
+                            		<div class="col-sm-4">
+	                                	<h4 class="header-title">Productos por categoría</h4>
+	                                </div>
+	                                <div class="col-sm-8" style="text-align:right">
+	                                	<button type="button" class="btn btn-info" id="btn_agregar_producto">Agregar</button>
+	                                </div>
+	                            </div>
+                                <br>
+                                <div class="data-tables datatable-dark">
+                                    <table id="dataTable3" class="table table-hover progress-table text-center">
+                                        <thead class="">
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Categoría</th>
+                                                <th>SubCategoría</th>
+                                                <th>Nombre</th>
+                                                <th>Descripción</th>
+                                                <th>Estado</th>
+                                                <th>Imagen</th>
+                                                <th>Editar</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr th:each="prod : ${productos}">
+                                                <td th:id="${prod.idProducto}" th:text="${prod.idProducto}">ID</td>
+                                                <td th:text="${prod.idCategoria}">Categoría</td>
+                                                <td th:text="${prod.idSubCategoria}">SubCategoría</td>
+                                                <td th:text="${prod.nombre}">Nombre</td>
+                                                <td th:text="${prod.descripcion}">Descripción</td>
+                                                <td th:text="${prod.estado}">Estado</td>
+                                                <td th:text="${prod.nombreImagen}">Imagen</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li><button type="button" class="btn btn-outline-info"><i class="fa fa-edit"></i></button></li>
+<!--                                                         <li><button type="button" class="btn btn-outline-danger"><i class="ti-trash"></i></button></li> -->
+                                                    </ul>
+                                                </td>
+                                                
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dark table end -->
+                </div>
+            </div>
+        </div>
+        <!-- main content area end -->
+        <!-- footer area start-->
+        <footer>
+            <div class="footer-area">
+                <p>2021 ALIMENTOSELECTOS.COM Todos los derechos reservados.</p>
+            </div>
+        </footer>
+        <!-- footer area end-->
+    </div>
+    <!-- page container area end -->
+    <!-- offset area start -->
+    
+    
+    <!-- Modal -->
+	<div id="div_producto11" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" id="btn_clo_documentos" class="close" data-dismiss="modal" aria-hidden="true">
+						&times;
+					</button>
+					<h4 class="modal-title label-bold1" id="h4_tit_documentos">Nuevo Documento</h4>
+				</div>
+				
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12">
+							<form id="frm_det_documentos" class="form-horizontal" role="form">
+								
+								<input type="hidden" id="hid_cod_documento" name="hid_cod_documento">
+								<input type="hidden" id="hid_cod_act_alfresco" name="hid_cod_act_alfresco">
+								<input type="hidden" id="hid_cod_ind_alfresco" name="hid_cod_ind_alfresco">
+							
+								<div class="form-group">																				
+									<label class="col-sm-3 control-label">Tipo Documento:</label>
+									<div class="col-sm-8">
+										<select id="sel_tipo_documento" name="sel_tipo_documento" class="form-control">
+											<c:forEach items="${lista_tipo_documento}" var="item">
+												<option value="${item.vcodigo}">${item.descripcion}</option>
+											</c:forEach>
+										</select>
+									</div>
+								</div>								
+	
+								<div class="form-group">
+									<label class="col-sm-3 control-label">N° Documento:</label>
+									<div class="col-sm-8">
+										<input type="text" name="txt_nro_documento" id="txt_nro_documento" class="form-control" maxlength="30">
+									</div>								
+								</div>										
+	
+								<div class="form-group">
+									<label class="col-sm-3 control-label">Fecha:</label>
+									<div class="col-sm-4 smart-form">
+										<label class="input"> 
+											<i class="icon-append fa fa-calendar"></i>
+											<input type="text" name="txt_doc_fecha" id="txt_doc_fecha" class="datepicker" readonly>
+										</label>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label class="col-sm-3 control-label">Descripción:</label>
+									<div class="col-sm-8">
+											<textarea rows="3" name="txt_descripcion_doc" id="txt_descripcion_doc" class="form-control"></textarea>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label class="col-sm-3 control-label">Subir Archivo:</label>
+									<div class="col-sm-8 smart-form">
+										<div class="input input-file">
+											<span id="sp_sub_archivo" class="button">
+												<input type="file" id="txt_sub_archivo" name="txt_sub_archivo">
+												Cargar
+											</span>
+											<input type="text" id="txt_lee_sub_archivo" name="txt_lee_sub_archivo" readonly>
+										</div>
+									</div>								
+								</div>
+								
+							</form>
+						</div>
+					</div>
+				</div>
+				
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" id="btn_gra_documento">
+						<i class="fa fa-floppy-o"></i>
+						Grabar
+					</button>
+					
+					&nbsp; &nbsp;
+					
+					<button type="button" class="btn btn-default" data-dismiss="modal" id="btn_can_documento">
+						<i class="fa fa-mail-forward"></i>
+						Cancelar
+					</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+    
+    
+    
+    <!-- Modal -->
+    <div class="modal fade" id="div_producto">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal_titulo">Actualizar Producto</h5>
+                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+						<div class="col-xs-12 col-sm-12">
+							
+							<form th:action="@{/private/grabarProducto}" th:object="${producto}" method="POST" class="needs-validation" enctype="multipart/form-data">	
+								<input type="hidden" id="idProducto" name="idProducto" th:field="*{idProducto}">
+								<input type="hidden" id="hid_cod_act_alfresco" name="hid_cod_act_alfresco">
+								<input type="hidden" id="hid_cod_ind_alfresco" name="hid_cod_ind_alfresco">
+
+								<div class="form-group">
+									<div class="col-sm-12">
+                                        <label for="example-text-input" class="col-form-label">Categoría</label>
+                                        <select id="idCategoria1" name="idCategoria1" class="form-control" th:field="*{idCategoria}">
+                                            <option th:each="cat:${categorias}" th:value="${cat.idCategoria}" th:text="${cat.nombre}">
+										</select>
+                                    </div>  
+                                </div>
+                                <div class="form-group">
+									<div class="col-sm-12">
+                                        <label for="example-text-input" class="col-form-label">SubCategoría</label>
+                                        <select id="idSubCategoria1" name="idSubCategoria1" class="form-control" th:field="*{idSubCategoria}">
+                                            <option th:each="cat:${subcategorias}" th:value="${cat.idSubCategoria}" th:text="${cat.nombre}">
+										</select>
+                                    </div>  
+                                </div>
+                                <div class="form-group">
+									<div class="col-sm-12">
+                                        <label for="example-text-input" class="col-form-label">Nombre</label>
+                                        <input type="text" class="form-control" name="nombre" id="nombre" th:field="*{nombre}" required>
+                                    </div>  
+                                </div>
+                                <div class="form-group">
+									<div class="col-sm-12">
+                                        <label for="example-text-input" class="col-form-label">Descripción</label>
+                                        <input type="text" class="form-control" name="descripcion" id="descripcion" th:field="*{descripcion}" required>
+                                    </div>  
+                                </div>
+                                <div class="form-group">
+									<div class="col-sm-6">
+                                        <label for="example-text-input" class="col-form-label">Estado</label>
+                                        <select id="estado" name="estado" th:field="*{estado}" class="form-control">
+											<option th:value="'1'">Activo</option>
+											<option th:value="'0'">Inactivo</option>
+										</select>
+                                    </div>  
+                                </div>	
+                                <div class="form-group">
+                                	
+									<div class="col-sm-12">
+<!--                                         <input type="file" id="imgInp1" /> -->
+<!-- 										<form method="POST" th:action="@{/upload}" enctype="multipart/form-data"> -->
+	                                        <div class="custom-file" id="divlabel">
+<!-- 	                                        <form method="POST" th:action="@{/private/grabarProducto}" enctype="multipart/form-data"> -->
+	                                            <input type="file" class="custom-file-input" id="imagenMulti" name="imagenMulti">
+	                                            <label class="custom-file-label" for="inputGroupFile01">Seleccionar Imagen</label>
+	                                            <input type="hidden" id="nombreImagen" name="nombreImagen" class="form-control">
+<!-- 	                                             <button type="submit" class="btn btn-primary">Guardar</button> -->
+<!-- 	                                            </form> -->
+	                                        </div>
+<!--                                         </form> -->
+										  <br>
+										  <img style="width: 180px;height: auto;" name="nombreArchivo" id="nombreArchivo" src="http://comprayventaperu.pe/ALIMENTOSELECTOS.PE/logo1.png" alt="Tu imagen" />
+                                    </div>  
+                                    
+                                    
+<!-- 					                    <div class="form-group"> -->
+<!-- 					                        <input type="file" name="imagenMulti"  id="imagenMulti"  class="form-control-file"> -->
+<!-- 					                    </div> -->
+					                   
+					                
+                                    
+                                    
+                                </div>
+
+														
+	
+							
+<!-- 								<div class="form-group"> -->
+<!-- 									<label class="col-sm-3 control-label">Subir Archivo:</label> -->
+<!-- 									<div class="col-sm-8 smart-form"> -->
+<!-- 										<div class="input input-file"> -->
+<!-- 											<span id="sp_sub_archivo" class="button"> -->
+<!-- 												<input type="file" id="txt_sub_archivo" name="txt_sub_archivo"> -->
+<!-- 												Cargar -->
+<!-- 											</span> -->
+<!-- 											<input type="text" id="txt_lee_sub_archivo" name="txt_lee_sub_archivo" readonly> -->
+<!-- 										</div> -->
+<!-- 									</div>								 -->
+<!-- 								</div> -->
+								
+								
+								<div class="modal-footer">
+				                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+				                    <button type="submit" class="btn btn-primary">Guardar</button>
+				                </div>
+							</form>
+						</div>
+					</div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="offset-area">
+        <div class="offset-close"><i class="ti-close"></i></div>
+        <ul class="nav offset-menu-tab">
+            <li><a class="active" data-toggle="tab" href="#activity">Activity</a></li>
+            <li><a data-toggle="tab" href="#settings">Settings</a></li>
+        </ul>
+        <div class="offset-content tab-content">
+            <div id="activity" class="tab-pane fade in show active">
+                <div class="recent-activity">
+                    <div class="timeline-task">
+                        <div class="icon bg1">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>Rashed sent you an email</h4>
+                            <span class="time"><i class="ti-time"></i>09:35</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio itaque at.
+                        </p>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg2">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>Added</h4>
+                            <span class="time"><i class="ti-time"></i>7 Minutes Ago</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg2">
+                            <i class="fa fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>You missed you Password!</h4>
+                            <span class="time"><i class="ti-time"></i>09:20 Am</span>
+                        </div>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg3">
+                            <i class="fa fa-bomb"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>Member waiting for you Attention</h4>
+                            <span class="time"><i class="ti-time"></i>09:35</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio itaque at.
+                        </p>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg3">
+                            <i class="ti-signal"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>You Added Kaji Patha few minutes ago</h4>
+                            <span class="time"><i class="ti-time"></i>01 minutes ago</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio itaque at.
+                        </p>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg1">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>Ratul Hamba sent you an email</h4>
+                            <span class="time"><i class="ti-time"></i>09:35</span>
+                        </div>
+                        <p>Hello sir , where are you, i am egerly waiting for you.
+                        </p>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg2">
+                            <i class="fa fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>Rashed sent you an email</h4>
+                            <span class="time"><i class="ti-time"></i>09:35</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio itaque at.
+                        </p>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg2">
+                            <i class="fa fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>Rashed sent you an email</h4>
+                            <span class="time"><i class="ti-time"></i>09:35</span>
+                        </div>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg3">
+                            <i class="fa fa-bomb"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>Rashed sent you an email</h4>
+                            <span class="time"><i class="ti-time"></i>09:35</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio itaque at.
+                        </p>
+                    </div>
+                    <div class="timeline-task">
+                        <div class="icon bg3">
+                            <i class="ti-signal"></i>
+                        </div>
+                        <div class="tm-title">
+                            <h4>Rashed sent you an email</h4>
+                            <span class="time"><i class="ti-time"></i>09:35</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio itaque at.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="settings" class="tab-pane fade">
+                <div class="offset-settings">
+                    <h4>General Settings</h4>
+                    <div class="settings-list">
+                        <div class="s-settings">
+                            <div class="s-sw-title">
+                                <h5>Notifications</h5>
+                                <div class="s-swtich">
+                                    <input type="checkbox" id="switch1" />
+                                    <label for="switch1">Toggle</label>
+                                </div>
+                            </div>
+                            <p>Keep it 'On' When you want to get all the notification.</p>
+                        </div>
+                        <div class="s-settings">
+                            <div class="s-sw-title">
+                                <h5>Show recent activity</h5>
+                                <div class="s-swtich">
+                                    <input type="checkbox" id="switch2" />
+                                    <label for="switch2">Toggle</label>
+                                </div>
+                            </div>
+                            <p>The for attribute is necessary to bind our custom checkbox with the input.</p>
+                        </div>
+                        <div class="s-settings">
+                            <div class="s-sw-title">
+                                <h5>Show your emails</h5>
+                                <div class="s-swtich">
+                                    <input type="checkbox" id="switch3" />
+                                    <label for="switch3">Toggle</label>
+                                </div>
+                            </div>
+                            <p>Show email so that easily find you.</p>
+                        </div>
+                        <div class="s-settings">
+                            <div class="s-sw-title">
+                                <h5>Show Task statistics</h5>
+                                <div class="s-swtich">
+                                    <input type="checkbox" id="switch4" />
+                                    <label for="switch4">Toggle</label>
+                                </div>
+                            </div>
+                            <p>The for attribute is necessary to bind our custom checkbox with the input.</p>
+                        </div>
+                        <div class="s-settings">
+                            <div class="s-sw-title">
+                                <h5>Notifications</h5>
+                                <div class="s-swtich">
+                                    <input type="checkbox" id="switch5" />
+                                    <label for="switch5">Toggle</label>
+                                </div>
+                            </div>
+                            <p>Use checkboxes when looking for yes or no answers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- offset area end -->
+    <!-- jquery latest version -->
+    <script src="../assets/js/vendor/jquery-2.2.4.min.js"></script>
+    <!-- bootstrap 4 js -->
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/metisMenu.min.js"></script>
+    <script src="../assets/js/jquery.slimscroll.min.js"></script>
+    <script src="../assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Start datatable js -->
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+    <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap.min.js"></script>
+    <!-- others plugins -->
+    <script src="../assets/js/plugins.js"></script>
+    <script src="../assets/js/scripts.js"></script>
+    
+	<script src="../assets/js/base.js"></script>
+	<script src="../assets/js/SmartNotification.min.js"></script>
+    <script src="../assets/js/mantenimiento_productos.js"></script>
+    <script type="text/javascript">
+	var VAR_CONTEXT = '';
+	</script>
+</body>
+
+</html>
